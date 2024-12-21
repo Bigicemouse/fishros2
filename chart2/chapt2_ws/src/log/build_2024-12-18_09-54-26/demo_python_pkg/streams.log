@@ -1,0 +1,28 @@
+[0.574s] Invoking command in '/home/xiaomi/chart2/chapt2_ws/src/demo_python_pkg': PYTHONPATH=/home/xiaomi/chart2/chapt2_ws/src/build/demo_python_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/xiaomi/chart2/chapt2_ws/src/install/demo_python_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/demo_python_pkg build --build-base /home/xiaomi/chart2/chapt2_ws/src/build/demo_python_pkg/build install --record /home/xiaomi/chart2/chapt2_ws/src/build/demo_python_pkg/install.log --single-version-externally-managed install_data
+[0.795s] running egg_info
+[0.796s] writing ../build/demo_python_pkg/demo_python_pkg.egg-info/PKG-INFO
+[0.796s] writing dependency_links to ../build/demo_python_pkg/demo_python_pkg.egg-info/dependency_links.txt
+[0.797s] writing entry points to ../build/demo_python_pkg/demo_python_pkg.egg-info/entry_points.txt
+[0.797s] writing requirements to ../build/demo_python_pkg/demo_python_pkg.egg-info/requires.txt
+[0.797s] writing top-level names to ../build/demo_python_pkg/demo_python_pkg.egg-info/top_level.txt
+[0.799s] reading manifest file '../build/demo_python_pkg/demo_python_pkg.egg-info/SOURCES.txt'
+[0.800s] adding license file 'LICENSE'
+[0.800s] writing manifest file '../build/demo_python_pkg/demo_python_pkg.egg-info/SOURCES.txt'
+[0.801s] running build
+[0.801s] running build_py
+[0.801s] copying demo_python_pkg/learn_thread.py -> /home/xiaomi/chart2/chapt2_ws/src/build/demo_python_pkg/build/lib/demo_python_pkg
+[0.801s] running install
+[0.802s] running install_lib
+[0.803s] copying /home/xiaomi/chart2/chapt2_ws/src/build/demo_python_pkg/build/lib/demo_python_pkg/learn_thread.py -> /home/xiaomi/chart2/chapt2_ws/src/install/demo_python_pkg/lib/python3.10/site-packages/demo_python_pkg
+[0.803s] byte-compiling /home/xiaomi/chart2/chapt2_ws/src/install/demo_python_pkg/lib/python3.10/site-packages/demo_python_pkg/learn_thread.py to learn_thread.cpython-310.pyc
+[0.804s] running install_data
+[0.805s] running install_egg_info
+[0.807s] removing '/home/xiaomi/chart2/chapt2_ws/src/install/demo_python_pkg/lib/python3.10/site-packages/demo_python_pkg-0.0.0-py3.10.egg-info' (and everything under it)
+[0.807s] Copying ../build/demo_python_pkg/demo_python_pkg.egg-info to /home/xiaomi/chart2/chapt2_ws/src/install/demo_python_pkg/lib/python3.10/site-packages/demo_python_pkg-0.0.0-py3.10.egg-info
+[0.809s] running install_scripts
+[0.830s] Installing learn_thread script to /home/xiaomi/chart2/chapt2_ws/src/install/demo_python_pkg/lib/demo_python_pkg
+[0.830s] Installing person_node script to /home/xiaomi/chart2/chapt2_ws/src/install/demo_python_pkg/lib/demo_python_pkg
+[0.830s] Installing py_node script to /home/xiaomi/chart2/chapt2_ws/src/install/demo_python_pkg/lib/demo_python_pkg
+[0.831s] Installing writer_node script to /home/xiaomi/chart2/chapt2_ws/src/install/demo_python_pkg/lib/demo_python_pkg
+[0.831s] writing list of installed files to '/home/xiaomi/chart2/chapt2_ws/src/build/demo_python_pkg/install.log'
+[0.852s] Invoked command in '/home/xiaomi/chart2/chapt2_ws/src/demo_python_pkg' returned '0': PYTHONPATH=/home/xiaomi/chart2/chapt2_ws/src/build/demo_python_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/xiaomi/chart2/chapt2_ws/src/install/demo_python_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/demo_python_pkg build --build-base /home/xiaomi/chart2/chapt2_ws/src/build/demo_python_pkg/build install --record /home/xiaomi/chart2/chapt2_ws/src/build/demo_python_pkg/install.log --single-version-externally-managed install_data
