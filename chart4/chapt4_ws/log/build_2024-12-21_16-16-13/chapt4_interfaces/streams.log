@@ -1,0 +1,266 @@
+[0.014s] Invoking command in '/home/xiaomi/fishros_src_learn/chart4/chapt4_ws/build/chapt4_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/xiaomi/fishros_src_learn/chart4/chapt4_ws/src/chapt4_interfaces -DCMAKE_INSTALL_PREFIX=/home/xiaomi/fishros_src_learn/chart4/chapt4_ws/install/chapt4_interfaces
+[0.127s] -- The C compiler identification is GNU 11.4.0
+[0.289s] -- The CXX compiler identification is GNU 11.4.0
+[0.302s] -- Detecting C compiler ABI info
+[0.389s] -- Detecting C compiler ABI info - done
+[0.395s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.395s] -- Detecting C compile features
+[0.396s] -- Detecting C compile features - done
+[0.400s] -- Detecting CXX compiler ABI info
+[0.499s] -- Detecting CXX compiler ABI info - done
+[0.506s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.506s] -- Detecting CXX compile features
+[0.506s] -- Detecting CXX compile features - done
+[0.515s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.741s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.866s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.870s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.880s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.935s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.978s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.402s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.688s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.049s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.075s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[2.078s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[2.106s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[2.106s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.106s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[2.106s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[2.129s] -- Found PythonExtra: .so  
+[2.202s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.238s] -- Added test 'lint_cmake' to check CMake code style
+[2.240s] -- Added test 'xmllint' to check XML markup files
+[2.244s] -- Configuring done
+[2.298s] -- Generating done
+[2.312s] -- Build files have been written to: /home/xiaomi/fishros_src_learn/chart4/chapt4_ws/build/chapt4_interfaces
+[2.325s] Invoked command in '/home/xiaomi/fishros_src_learn/chart4/chapt4_ws/build/chapt4_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/xiaomi/fishros_src_learn/chart4/chapt4_ws/src/chapt4_interfaces -DCMAKE_INSTALL_PREFIX=/home/xiaomi/fishros_src_learn/chart4/chapt4_ws/install/chapt4_interfaces
+[2.327s] Invoking command in '/home/xiaomi/fishros_src_learn/chart4/chapt4_ws/build/chapt4_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/xiaomi/fishros_src_learn/chart4/chapt4_ws/build/chapt4_interfaces -- -j16 -l16
+[2.375s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[2.387s] [  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[2.396s] [  5%] Built target ament_cmake_python_copy_chapt4_interfaces
+[2.674s] running egg_info
+[2.674s] creating chapt4_interfaces.egg-info
+[2.675s] writing chapt4_interfaces.egg-info/PKG-INFO
+[2.675s] writing dependency_links to chapt4_interfaces.egg-info/dependency_links.txt
+[2.675s] writing top-level names to chapt4_interfaces.egg-info/top_level.txt
+[2.676s] writing manifest file 'chapt4_interfaces.egg-info/SOURCES.txt'
+[2.681s] reading manifest file 'chapt4_interfaces.egg-info/SOURCES.txt'
+[2.681s] writing manifest file 'chapt4_interfaces.egg-info/SOURCES.txt'
+[2.717s] [  5%] Built target ament_cmake_python_build_chapt4_interfaces_egg
+[2.820s] [  5%] Built target chapt4_interfaces__cpp
+[2.834s] [ 12%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[2.834s] [ 12%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[2.834s] [ 12%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[2.848s] [ 17%] [32mBuilding C object CMakeFiles/chapt4_interfaces__rosidl_generator_c.dir/rosidl_generator_c/chapt4_interfaces/srv/detail/patrol__functions.c.o[0m
+[2.849s] [ 17%] [32mBuilding C object CMakeFiles/chapt4_interfaces__rosidl_generator_c.dir/rosidl_generator_c/chapt4_interfaces/srv/detail/face_detector__functions.c.o[0m
+[2.943s] [ 20%] [32m[1mLinking C shared library libchapt4_interfaces__rosidl_generator_c.so[0m
+[3.023s] [ 20%] Built target chapt4_interfaces__rosidl_generator_c
+[3.036s] [ 23%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[3.052s] [ 25%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[3.054s] [ 28%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[3.229s] [ 30%] [32mBuilding CXX object CMakeFiles/chapt4_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/chapt4_interfaces/srv/face_detector__type_support.cpp.o[0m
+[3.234s] [ 33%] [32mBuilding CXX object CMakeFiles/chapt4_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/chapt4_interfaces/srv/patrol__type_support.cpp.o[0m
+[3.278s] [ 38%] [32mBuilding CXX object CMakeFiles/chapt4_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/chapt4_interfaces/srv/detail/face_detector__type_support.cpp.o[0m
+[3.279s] [ 38%] [32mBuilding CXX object CMakeFiles/chapt4_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/chapt4_interfaces/srv/detail/patrol__type_support.cpp.o[0m
+[3.282s] [ 41%] [32mBuilding CXX object CMakeFiles/chapt4_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/chapt4_interfaces/srv/detail/dds_fastrtps/face_detector__type_support.cpp.o[0m
+[3.283s] [ 43%] [32mBuilding CXX object CMakeFiles/chapt4_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/chapt4_interfaces/srv/detail/dds_fastrtps/patrol__type_support.cpp.o[0m
+[3.601s] [ 46%] [32mBuilding CXX object CMakeFiles/chapt4_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/chapt4_interfaces/srv/face_detector__type_support.cpp.o[0m
+[3.609s] [ 48%] [32mBuilding CXX object CMakeFiles/chapt4_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/chapt4_interfaces/srv/patrol__type_support.cpp.o[0m
+[3.616s] [ 51%] [32mBuilding CXX object CMakeFiles/chapt4_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/chapt4_interfaces/srv/detail/face_detector__type_support_c.cpp.o[0m
+[3.634s] [ 53%] [32mBuilding CXX object CMakeFiles/chapt4_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/chapt4_interfaces/srv/detail/patrol__type_support_c.cpp.o[0m
+[3.699s] [ 56%] [32mBuilding C object CMakeFiles/chapt4_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/chapt4_interfaces/srv/detail/patrol__type_support.c.o[0m
+[3.705s] [ 58%] [32mBuilding C object CMakeFiles/chapt4_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/chapt4_interfaces/srv/detail/face_detector__type_support.c.o[0m
+[3.778s] [ 61%] [32m[1mLinking CXX shared library libchapt4_interfaces__rosidl_typesupport_c.so[0m
+[4.135s] [ 61%] Built target chapt4_interfaces__rosidl_typesupport_c
+[4.169s] [ 64%] [32m[1mLinking C shared library libchapt4_interfaces__rosidl_typesupport_introspection_c.so[0m
+[4.403s] [ 64%] Built target chapt4_interfaces__rosidl_typesupport_introspection_c
+[4.619s] [ 66%] [32m[1mLinking CXX shared library libchapt4_interfaces__rosidl_typesupport_cpp.so[0m
+[4.689s] [ 66%] Built target chapt4_interfaces__rosidl_typesupport_cpp
+[4.850s] [ 69%] [32m[1mLinking CXX shared library libchapt4_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[4.870s] [ 71%] [32m[1mLinking CXX shared library libchapt4_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[4.961s] [ 74%] [32m[1mLinking CXX shared library libchapt4_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[4.966s] [ 74%] Built target chapt4_interfaces__rosidl_typesupport_introspection_cpp
+[4.984s] [ 74%] Built target chapt4_interfaces__rosidl_typesupport_fastrtps_cpp
+[5.069s] [ 74%] Built target chapt4_interfaces__rosidl_typesupport_fastrtps_c
+[5.103s] [ 74%] Built target chapt4_interfaces
+[5.128s] [ 76%] [34m[1mGenerating Python code for ROS interfaces[0m
+[5.713s] [ 76%] Built target chapt4_interfaces__py
+[5.738s] [ 79%] [32mBuilding C object CMakeFiles/chapt4_interfaces__rosidl_generator_py.dir/rosidl_generator_py/chapt4_interfaces/srv/_face_detector_s.c.o[0m
+[5.739s] [ 82%] [32mBuilding C object CMakeFiles/chapt4_interfaces__rosidl_generator_py.dir/rosidl_generator_py/chapt4_interfaces/srv/_patrol_s.c.o[0m
+[5.907s] [ 84%] [32m[1mLinking C shared library rosidl_generator_py/chapt4_interfaces/libchapt4_interfaces__rosidl_generator_py.so[0m
+[5.992s] [ 84%] Built target chapt4_interfaces__rosidl_generator_py
+[6.019s] [ 92%] [32mBuilding C object CMakeFiles/chapt4_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/chapt4_interfaces/_chapt4_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[6.019s] [ 92%] [32mBuilding C object CMakeFiles/chapt4_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/chapt4_interfaces/_chapt4_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[6.019s] [ 92%] [32mBuilding C object CMakeFiles/chapt4_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/chapt4_interfaces/_chapt4_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[6.141s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/chapt4_interfaces/chapt4_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[6.141s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/chapt4_interfaces/chapt4_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[6.144s] [100%] [32m[1mLinking C shared library rosidl_generator_py/chapt4_interfaces/chapt4_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[6.190s] [100%] Built target chapt4_interfaces__rosidl_typesupport_introspection_c__pyext
+[6.190s] [100%] Built target chapt4_interfaces__rosidl_typesupport_c__pyext
+[6.195s] [100%] Built target chapt4_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[6.210s] Invoked command in '/home/xiaomi/fishros_src_learn/chart4/chapt4_ws/build/chapt4_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/xiaomi/fishros_src_learn/chart4/chapt4_ws/build/chapt4_interfaces -- -j16 -l16
+[6.224s] Invoking command in '/home/xiaomi/fishros_src_learn/chart4/chapt4_ws/build/chapt4_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/xiaomi/fishros_src_learn/chart4/chapt4_ws/build/chapt4_interfaces
+[6.233s] -- Install configuration: ""
+[6.233s] -- Installing: /home/xiaomi/fishros_src_learn/chart4/chapt4_ws/install/chapt4_interfaces/share/ament_index/resource_index/rosidl_interfaces/chapt4_interfaces
+[6.234s] -- Installing: /home/xiaomi/fishros_src_learn/chart4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces
+[6.234s] -- Installing: /home/xiaomi/fishros_src_learn/chart4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv
+[6.234s] -- Installing: /home/xiaomi/fishros_src_learn/chart4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail
+[6.234s] -- Installing: /home/xiaomi/fishros_src_learn/chart4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail/patrol__functions.h
+[6.234s] -- Installing: /home/xiaomi/fishros_src_learn/chart4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail/face_detector__type_support.h
+[6.235s] -- Installing: /home/xiaomi/fishros_src_learn/chart4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail/face_detector__functions.c
+[6.235s] -- Installing: /home/xiaomi/fishros_src_learn/chart4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail/patrol__type_support.h
+[6.235s] -- Installing: /home/xiaomi/fishros_src_learn/chart4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail/patrol__struct.h
+[6.235s] -- Installing: /home/xiaomi/fishros_src_learn/chart4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail/face_detector__functions.h
+[6.235s] -- Installing: /home/xiaomi/fishros_src_learn/chart4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail/patrol__functions.c
+[6.235s] -- Installing: /home/xiaomi/fishros_src_learn/chart4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail/face_detector__struct.h
+[6.236s] -- Installing: /home/xiaomi/fishros_src_learn/chart4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/patrol.h
+[6.236s] -- Installing: /home/xiaomi/fishros_src_learn/chart4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/face_detector.h
+[6.236s] -- Installing: /home/xiaomi/fishros_src_learn/chart4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/msg
+[6.236s] -- Installing: /home/xiaomi/fishros_src_learn/chart4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/msg/rosidl_generator_c__visibility_control.h
+[6.236s] -- Installing: /home/xiaomi/fishros_src_learn/chart4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/environment/library_path.sh
+[6.237s] -- Installing: /home/xiaomi/fishros_src_learn/chart4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/environment/library_path.dsv
+[6.237s] -- Installing: /home/xiaomi/fishros_src_learn/chart4/chapt4_ws/install/chapt4_interfaces/lib/libchapt4_interfaces__rosidl_generator_c.so
+[6.237s] -- Set runtime path of "/home/xiaomi/fishros_src_learn/chart4/chapt4_ws/install/chapt4_interfaces/lib/libchapt4_interfaces__rosidl_generator_c.so" to ""
+[6.238s] -- Up-to-date: /home/xiaomi/fishros_src_learn/chart4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces
+[6.238s] -- Up-to-date: /home/xiaomi/fishros_src_learn/chart4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv
+[6.238s] -- Up-to-date: /home/xiaomi/fishros_src_learn/chart4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail
+[6.238s] -- Installing: /home/xiaomi/fishros_src_learn/chart4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail/patrol__rosidl_typesupport_fastrtps_c.h
+[6.238s] -- Installing: /home/xiaomi/fishros_src_learn/chart4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail/face_detector__rosidl_typesupport_fastrtps_c.h
+[6.238s] -- Up-to-date: /home/xiaomi/fishros_src_learn/chart4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/msg
+[6.238s] -- Installing: /home/xiaomi/fishros_src_learn/chart4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[6.238s] -- Installing: /home/xiaomi/fishros_src_learn/chart4/chapt4_ws/install/chapt4_interfaces/lib/libchapt4_interfaces__rosidl_typesupport_fastrtps_c.so
+[6.239s] -- Set runtime path of "/home/xiaomi/fishros_src_learn/chart4/chapt4_ws/install/chapt4_interfaces/lib/libchapt4_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[6.239s] -- Up-to-date: /home/xiaomi/fishros_src_learn/chart4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces
+[6.239s] -- Up-to-date: /home/xiaomi/fishros_src_learn/chart4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv
+[6.239s] -- Up-to-date: /home/xiaomi/fishros_src_learn/chart4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail
+[6.239s] -- Installing: /home/xiaomi/fishros_src_learn/chart4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail/patrol__type_support.c
+[6.240s] -- Installing: /home/xiaomi/fishros_src_learn/chart4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail/patrol__rosidl_typesupport_introspection_c.h
+[6.240s] -- Installing: /home/xiaomi/fishros_src_learn/chart4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail/face_detector__rosidl_typesupport_introspection_c.h
+[6.240s] -- Installing: /home/xiaomi/fishros_src_learn/chart4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail/face_detector__type_support.c
+[6.240s] -- Up-to-date: /home/xiaomi/fishros_src_learn/chart4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/msg
+[6.240s] -- Installing: /home/xiaomi/fishros_src_learn/chart4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[6.241s] -- Installing: /home/xiaomi/fishros_src_learn/chart4/chapt4_ws/install/chapt4_interfaces/lib/libchapt4_interfaces__rosidl_typesupport_introspection_c.so
+[6.241s] -- Set runtime path of "/home/xiaomi/fishros_src_learn/chart4/chapt4_ws/install/chapt4_interfaces/lib/libchapt4_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[6.241s] -- Installing: /home/xiaomi/fishros_src_learn/chart4/chapt4_ws/install/chapt4_interfaces/lib/libchapt4_interfaces__rosidl_typesupport_c.so
+[6.242s] -- Set runtime path of "/home/xiaomi/fishros_src_learn/chart4/chapt4_ws/install/chapt4_interfaces/lib/libchapt4_interfaces__rosidl_typesupport_c.so" to ""
+[6.242s] -- Up-to-date: /home/xiaomi/fishros_src_learn/chart4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces
+[6.242s] -- Up-to-date: /home/xiaomi/fishros_src_learn/chart4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv
+[6.242s] -- Installing: /home/xiaomi/fishros_src_learn/chart4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/patrol.hpp
+[6.242s] -- Up-to-date: /home/xiaomi/fishros_src_learn/chart4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail
+[6.242s] -- Installing: /home/xiaomi/fishros_src_learn/chart4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail/face_detector__struct.hpp
+[6.242s] -- Installing: /home/xiaomi/fishros_src_learn/chart4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail/face_detector__type_support.hpp
+[6.243s] -- Installing: /home/xiaomi/fishros_src_learn/chart4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail/face_detector__traits.hpp
+[6.243s] -- Installing: /home/xiaomi/fishros_src_learn/chart4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail/patrol__struct.hpp
+[6.243s] -- Installing: /home/xiaomi/fishros_src_learn/chart4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail/patrol__traits.hpp
+[6.243s] -- Installing: /home/xiaomi/fishros_src_learn/chart4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail/face_detector__builder.hpp
+[6.244s] -- Installing: /home/xiaomi/fishros_src_learn/chart4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail/patrol__builder.hpp
+[6.244s] -- Installing: /home/xiaomi/fishros_src_learn/chart4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail/patrol__type_support.hpp
+[6.244s] -- Installing: /home/xiaomi/fishros_src_learn/chart4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/face_detector.hpp
+[6.244s] -- Up-to-date: /home/xiaomi/fishros_src_learn/chart4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/msg
+[6.244s] -- Installing: /home/xiaomi/fishros_src_learn/chart4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[6.244s] -- Up-to-date: /home/xiaomi/fishros_src_learn/chart4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces
+[6.244s] -- Up-to-date: /home/xiaomi/fishros_src_learn/chart4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv
+[6.245s] -- Up-to-date: /home/xiaomi/fishros_src_learn/chart4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail
+[6.245s] -- Installing: /home/xiaomi/fishros_src_learn/chart4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail/face_detector__rosidl_typesupport_fastrtps_cpp.hpp
+[6.245s] -- Installing: /home/xiaomi/fishros_src_learn/chart4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail/patrol__rosidl_typesupport_fastrtps_cpp.hpp
+[6.245s] -- Installing: /home/xiaomi/fishros_src_learn/chart4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail/dds_fastrtps
+[6.245s] -- Up-to-date: /home/xiaomi/fishros_src_learn/chart4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/msg
+[6.246s] -- Installing: /home/xiaomi/fishros_src_learn/chart4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[6.246s] -- Installing: /home/xiaomi/fishros_src_learn/chart4/chapt4_ws/install/chapt4_interfaces/lib/libchapt4_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[6.246s] -- Set runtime path of "/home/xiaomi/fishros_src_learn/chart4/chapt4_ws/install/chapt4_interfaces/lib/libchapt4_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[6.246s] -- Up-to-date: /home/xiaomi/fishros_src_learn/chart4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces
+[6.246s] -- Up-to-date: /home/xiaomi/fishros_src_learn/chart4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv
+[6.246s] -- Up-to-date: /home/xiaomi/fishros_src_learn/chart4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail
+[6.246s] -- Installing: /home/xiaomi/fishros_src_learn/chart4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail/patrol__rosidl_typesupport_introspection_cpp.hpp
+[6.247s] -- Installing: /home/xiaomi/fishros_src_learn/chart4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail/face_detector__rosidl_typesupport_introspection_cpp.hpp
+[6.247s] -- Installing: /home/xiaomi/fishros_src_learn/chart4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail/face_detector__type_support.cpp
+[6.247s] -- Installing: /home/xiaomi/fishros_src_learn/chart4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail/patrol__type_support.cpp
+[6.248s] -- Installing: /home/xiaomi/fishros_src_learn/chart4/chapt4_ws/install/chapt4_interfaces/lib/libchapt4_interfaces__rosidl_typesupport_introspection_cpp.so
+[6.248s] -- Set runtime path of "/home/xiaomi/fishros_src_learn/chart4/chapt4_ws/install/chapt4_interfaces/lib/libchapt4_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[6.248s] -- Installing: /home/xiaomi/fishros_src_learn/chart4/chapt4_ws/install/chapt4_interfaces/lib/libchapt4_interfaces__rosidl_typesupport_cpp.so
+[6.249s] -- Set runtime path of "/home/xiaomi/fishros_src_learn/chart4/chapt4_ws/install/chapt4_interfaces/lib/libchapt4_interfaces__rosidl_typesupport_cpp.so" to ""
+[6.249s] -- Installing: /home/xiaomi/fishros_src_learn/chart4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/environment/pythonpath.sh
+[6.250s] -- Installing: /home/xiaomi/fishros_src_learn/chart4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/environment/pythonpath.dsv
+[6.250s] -- Installing: /home/xiaomi/fishros_src_learn/chart4/chapt4_ws/install/chapt4_interfaces/local/lib/python3.10/dist-packages/chapt4_interfaces-0.0.0-py3.10.egg-info
+[6.250s] -- Installing: /home/xiaomi/fishros_src_learn/chart4/chapt4_ws/install/chapt4_interfaces/local/lib/python3.10/dist-packages/chapt4_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[6.250s] -- Installing: /home/xiaomi/fishros_src_learn/chart4/chapt4_ws/install/chapt4_interfaces/local/lib/python3.10/dist-packages/chapt4_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[6.250s] -- Installing: /home/xiaomi/fishros_src_learn/chart4/chapt4_ws/install/chapt4_interfaces/local/lib/python3.10/dist-packages/chapt4_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[6.250s] -- Installing: /home/xiaomi/fishros_src_learn/chart4/chapt4_ws/install/chapt4_interfaces/local/lib/python3.10/dist-packages/chapt4_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[6.250s] -- Installing: /home/xiaomi/fishros_src_learn/chart4/chapt4_ws/install/chapt4_interfaces/local/lib/python3.10/dist-packages/chapt4_interfaces
+[6.251s] -- Installing: /home/xiaomi/fishros_src_learn/chart4/chapt4_ws/install/chapt4_interfaces/local/lib/python3.10/dist-packages/chapt4_interfaces/srv
+[6.251s] -- Installing: /home/xiaomi/fishros_src_learn/chart4/chapt4_ws/install/chapt4_interfaces/local/lib/python3.10/dist-packages/chapt4_interfaces/srv/__init__.py
+[6.251s] -- Installing: /home/xiaomi/fishros_src_learn/chart4/chapt4_ws/install/chapt4_interfaces/local/lib/python3.10/dist-packages/chapt4_interfaces/srv/_face_detector.py
+[6.251s] -- Installing: /home/xiaomi/fishros_src_learn/chart4/chapt4_ws/install/chapt4_interfaces/local/lib/python3.10/dist-packages/chapt4_interfaces/srv/_patrol.py
+[6.251s] -- Installing: /home/xiaomi/fishros_src_learn/chart4/chapt4_ws/install/chapt4_interfaces/local/lib/python3.10/dist-packages/chapt4_interfaces/srv/_face_detector_s.c
+[6.252s] -- Installing: /home/xiaomi/fishros_src_learn/chart4/chapt4_ws/install/chapt4_interfaces/local/lib/python3.10/dist-packages/chapt4_interfaces/srv/_patrol_s.c
+[6.252s] -- Installing: /home/xiaomi/fishros_src_learn/chart4/chapt4_ws/install/chapt4_interfaces/local/lib/python3.10/dist-packages/chapt4_interfaces/__init__.py
+[6.252s] -- Installing: /home/xiaomi/fishros_src_learn/chart4/chapt4_ws/install/chapt4_interfaces/local/lib/python3.10/dist-packages/chapt4_interfaces/libchapt4_interfaces__rosidl_generator_py.so
+[6.253s] -- Installing: /home/xiaomi/fishros_src_learn/chart4/chapt4_ws/install/chapt4_interfaces/local/lib/python3.10/dist-packages/chapt4_interfaces/_chapt4_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[6.253s] -- Installing: /home/xiaomi/fishros_src_learn/chart4/chapt4_ws/install/chapt4_interfaces/local/lib/python3.10/dist-packages/chapt4_interfaces/chapt4_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[6.253s] -- Installing: /home/xiaomi/fishros_src_learn/chart4/chapt4_ws/install/chapt4_interfaces/local/lib/python3.10/dist-packages/chapt4_interfaces/chapt4_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[6.253s] -- Installing: /home/xiaomi/fishros_src_learn/chart4/chapt4_ws/install/chapt4_interfaces/local/lib/python3.10/dist-packages/chapt4_interfaces/_chapt4_interfaces_s.ep.rosidl_typesupport_c.c
+[6.253s] -- Installing: /home/xiaomi/fishros_src_learn/chart4/chapt4_ws/install/chapt4_interfaces/local/lib/python3.10/dist-packages/chapt4_interfaces/chapt4_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[6.253s] -- Installing: /home/xiaomi/fishros_src_learn/chart4/chapt4_ws/install/chapt4_interfaces/local/lib/python3.10/dist-packages/chapt4_interfaces/_chapt4_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[6.310s] Listing '/home/xiaomi/fishros_src_learn/chart4/chapt4_ws/install/chapt4_interfaces/local/lib/python3.10/dist-packages/chapt4_interfaces'...
+[6.311s] Compiling '/home/xiaomi/fishros_src_learn/chart4/chapt4_ws/install/chapt4_interfaces/local/lib/python3.10/dist-packages/chapt4_interfaces/__init__.py'...
+[6.311s] Listing '/home/xiaomi/fishros_src_learn/chart4/chapt4_ws/install/chapt4_interfaces/local/lib/python3.10/dist-packages/chapt4_interfaces/srv'...
+[6.311s] Compiling '/home/xiaomi/fishros_src_learn/chart4/chapt4_ws/install/chapt4_interfaces/local/lib/python3.10/dist-packages/chapt4_interfaces/srv/__init__.py'...
+[6.311s] Compiling '/home/xiaomi/fishros_src_learn/chart4/chapt4_ws/install/chapt4_interfaces/local/lib/python3.10/dist-packages/chapt4_interfaces/srv/_face_detector.py'...
+[6.311s] Compiling '/home/xiaomi/fishros_src_learn/chart4/chapt4_ws/install/chapt4_interfaces/local/lib/python3.10/dist-packages/chapt4_interfaces/srv/_patrol.py'...
+[6.317s] -- Installing: /home/xiaomi/fishros_src_learn/chart4/chapt4_ws/install/chapt4_interfaces/local/lib/python3.10/dist-packages/chapt4_interfaces/chapt4_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[6.318s] -- Set runtime path of "/home/xiaomi/fishros_src_learn/chart4/chapt4_ws/install/chapt4_interfaces/local/lib/python3.10/dist-packages/chapt4_interfaces/chapt4_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[6.318s] -- Installing: /home/xiaomi/fishros_src_learn/chart4/chapt4_ws/install/chapt4_interfaces/local/lib/python3.10/dist-packages/chapt4_interfaces/chapt4_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[6.318s] -- Set runtime path of "/home/xiaomi/fishros_src_learn/chart4/chapt4_ws/install/chapt4_interfaces/local/lib/python3.10/dist-packages/chapt4_interfaces/chapt4_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[6.319s] -- Installing: /home/xiaomi/fishros_src_learn/chart4/chapt4_ws/install/chapt4_interfaces/local/lib/python3.10/dist-packages/chapt4_interfaces/chapt4_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[6.319s] -- Set runtime path of "/home/xiaomi/fishros_src_learn/chart4/chapt4_ws/install/chapt4_interfaces/local/lib/python3.10/dist-packages/chapt4_interfaces/chapt4_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[6.319s] -- Installing: /home/xiaomi/fishros_src_learn/chart4/chapt4_ws/install/chapt4_interfaces/lib/libchapt4_interfaces__rosidl_generator_py.so
+[6.320s] -- Set runtime path of "/home/xiaomi/fishros_src_learn/chart4/chapt4_ws/install/chapt4_interfaces/lib/libchapt4_interfaces__rosidl_generator_py.so" to ""
+[6.320s] -- Installing: /home/xiaomi/fishros_src_learn/chart4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/srv/FaceDetector.idl
+[6.322s] -- Installing: /home/xiaomi/fishros_src_learn/chart4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/srv/Patrol.idl
+[6.322s] -- Installing: /home/xiaomi/fishros_src_learn/chart4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/srv/FaceDetector.srv
+[6.322s] -- Installing: /home/xiaomi/fishros_src_learn/chart4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/srv/FaceDetector_Request.msg
+[6.322s] -- Installing: /home/xiaomi/fishros_src_learn/chart4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/srv/FaceDetector_Response.msg
+[6.323s] -- Installing: /home/xiaomi/fishros_src_learn/chart4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/srv/Patrol.srv
+[6.323s] -- Installing: /home/xiaomi/fishros_src_learn/chart4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/srv/Patrol_Request.msg
+[6.323s] -- Installing: /home/xiaomi/fishros_src_learn/chart4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/srv/Patrol_Response.msg
+[6.323s] -- Installing: /home/xiaomi/fishros_src_learn/chart4/chapt4_ws/install/chapt4_interfaces/share/ament_index/resource_index/package_run_dependencies/chapt4_interfaces
+[6.323s] -- Installing: /home/xiaomi/fishros_src_learn/chart4/chapt4_ws/install/chapt4_interfaces/share/ament_index/resource_index/parent_prefix_path/chapt4_interfaces
+[6.323s] -- Installing: /home/xiaomi/fishros_src_learn/chart4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/environment/ament_prefix_path.sh
+[6.323s] -- Installing: /home/xiaomi/fishros_src_learn/chart4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/environment/ament_prefix_path.dsv
+[6.324s] -- Installing: /home/xiaomi/fishros_src_learn/chart4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/environment/path.sh
+[6.324s] -- Installing: /home/xiaomi/fishros_src_learn/chart4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/environment/path.dsv
+[6.324s] -- Installing: /home/xiaomi/fishros_src_learn/chart4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/local_setup.bash
+[6.324s] -- Installing: /home/xiaomi/fishros_src_learn/chart4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/local_setup.sh
+[6.325s] -- Installing: /home/xiaomi/fishros_src_learn/chart4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/local_setup.zsh
+[6.325s] -- Installing: /home/xiaomi/fishros_src_learn/chart4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/local_setup.dsv
+[6.325s] -- Installing: /home/xiaomi/fishros_src_learn/chart4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/package.dsv
+[6.326s] -- Installing: /home/xiaomi/fishros_src_learn/chart4/chapt4_ws/install/chapt4_interfaces/share/ament_index/resource_index/packages/chapt4_interfaces
+[6.326s] -- Installing: /home/xiaomi/fishros_src_learn/chart4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/cmake/export_chapt4_interfaces__rosidl_generator_cExport.cmake
+[6.326s] -- Installing: /home/xiaomi/fishros_src_learn/chart4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/cmake/export_chapt4_interfaces__rosidl_generator_cExport-noconfig.cmake
+[6.327s] -- Installing: /home/xiaomi/fishros_src_learn/chart4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/cmake/export_chapt4_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[6.327s] -- Installing: /home/xiaomi/fishros_src_learn/chart4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/cmake/export_chapt4_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[6.327s] -- Installing: /home/xiaomi/fishros_src_learn/chart4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/cmake/chapt4_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[6.327s] -- Installing: /home/xiaomi/fishros_src_learn/chart4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/cmake/chapt4_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[6.328s] -- Installing: /home/xiaomi/fishros_src_learn/chart4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/cmake/chapt4_interfaces__rosidl_typesupport_cExport.cmake
+[6.329s] -- Installing: /home/xiaomi/fishros_src_learn/chart4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/cmake/chapt4_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[6.329s] -- Installing: /home/xiaomi/fishros_src_learn/chart4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/cmake/export_chapt4_interfaces__rosidl_generator_cppExport.cmake
+[6.329s] -- Installing: /home/xiaomi/fishros_src_learn/chart4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/cmake/export_chapt4_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[6.330s] -- Installing: /home/xiaomi/fishros_src_learn/chart4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/cmake/export_chapt4_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[6.330s] -- Installing: /home/xiaomi/fishros_src_learn/chart4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/cmake/chapt4_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[6.330s] -- Installing: /home/xiaomi/fishros_src_learn/chart4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/cmake/chapt4_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[6.331s] -- Installing: /home/xiaomi/fishros_src_learn/chart4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/cmake/chapt4_interfaces__rosidl_typesupport_cppExport.cmake
+[6.331s] -- Installing: /home/xiaomi/fishros_src_learn/chart4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/cmake/chapt4_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[6.331s] -- Installing: /home/xiaomi/fishros_src_learn/chart4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/cmake/export_chapt4_interfaces__rosidl_generator_pyExport.cmake
+[6.331s] -- Installing: /home/xiaomi/fishros_src_learn/chart4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/cmake/export_chapt4_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[6.333s] -- Installing: /home/xiaomi/fishros_src_learn/chart4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/cmake/rosidl_cmake-extras.cmake
+[6.333s] -- Installing: /home/xiaomi/fishros_src_learn/chart4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[6.333s] -- Installing: /home/xiaomi/fishros_src_learn/chart4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[6.333s] -- Installing: /home/xiaomi/fishros_src_learn/chart4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[6.333s] -- Installing: /home/xiaomi/fishros_src_learn/chart4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[6.333s] -- Installing: /home/xiaomi/fishros_src_learn/chart4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[6.333s] -- Installing: /home/xiaomi/fishros_src_learn/chart4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[6.333s] -- Installing: /home/xiaomi/fishros_src_learn/chart4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/cmake/chapt4_interfacesConfig.cmake
+[6.334s] -- Installing: /home/xiaomi/fishros_src_learn/chart4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/cmake/chapt4_interfacesConfig-version.cmake
+[6.334s] -- Installing: /home/xiaomi/fishros_src_learn/chart4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/package.xml
+[6.338s] Invoked command in '/home/xiaomi/fishros_src_learn/chart4/chapt4_ws/build/chapt4_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/xiaomi/fishros_src_learn/chart4/chapt4_ws/build/chapt4_interfaces

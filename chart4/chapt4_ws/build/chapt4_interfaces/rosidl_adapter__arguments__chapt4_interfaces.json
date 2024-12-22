@@ -1,0 +1,7 @@
+{
+  "package_name": "chapt4_interfaces",
+  "non_idl_tuples": [
+    "/home/xiaomi/fishros_src_learn/chart4/chapt4_ws/src/chapt4_interfaces:srv/FaceDetector.srv",
+    "/home/xiaomi/fishros_src_learn/chart4/chapt4_ws/src/chapt4_interfaces:srv/Patrol.srv"
+  ]
+}
